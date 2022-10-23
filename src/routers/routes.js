@@ -25,7 +25,7 @@ class MyRouts extends React.Component {
         <Router>
           <Switch>
             <Route exact path="/mars" component={Mars} />
-            <Route exact path="/moon" component={Moon} />
+            <Route exact path="/earthsmoon" component={Moon} />
             <Route exact path="/bennu" component={Bennu} />
             <Route exact path="/callisto" component={Callisto} />
             <Route exact path="/cancri" component={Cancri} />
