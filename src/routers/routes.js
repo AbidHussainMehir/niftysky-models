@@ -21,7 +21,6 @@ import {
 class MyRouts extends React.Component {
   render() {
     return (
-      <div>
         <Router>
           <Switch>
             <Route exact path="/mars" component={Mars} />
@@ -41,7 +40,6 @@ class MyRouts extends React.Component {
             
           </Switch>
         </Router>
-      </div>
     );
   }
 }
